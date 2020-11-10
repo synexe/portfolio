@@ -1,0 +1,10 @@
+account_id = "bc24dd8657808daed774fbbc18aab0e8"
+name = "portfolio-staging"
+type = "webpack"
+route = "staging.teo-marchand.fr"
+workers_dev = false
+zone_id = "5b27eb667a4f1d36f43761ea70bbc1da"
+
+[site]
+bucket = "./build"
+entry-point = "workers-site"
