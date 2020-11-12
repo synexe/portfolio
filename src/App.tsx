@@ -3,13 +3,14 @@ import React from 'react';
 import ReactFullpage from '@fullpage/react-fullpage';
 import { FullPageComponent } from './components/FullPage/FullPage';
 import { HeroSection } from './sections/HeroSection';
+import { BodySection } from './sections/bodySection';
 
 function App(): JSX.Element {
   return (
     <FullPageComponent>
       <ReactFullpage.Wrapper>
         <HeroSection />
-        <div className="section"></div>
+        <BodySection />
       </ReactFullpage.Wrapper>
     </FullPageComponent>
   );

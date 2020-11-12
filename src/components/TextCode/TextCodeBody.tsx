@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const TextCode = styled.span`
+const TextCodeBody = styled.span`
   position: absolute;
   user-select: none;
   color: #707070;
@@ -9,10 +9,10 @@ const TextCode = styled.span`
   font-size: 20px;
 `;
 
-interface TextCodeComponentProps {
+interface TextCodeBodyComponentProps {
   class: string;
 }
 
-export const TextCodeComponent = (props: TextCodeComponentProps): JSX.Element => {
-  return <TextCode className={props.class} />;
+export const TextCodeBodyComponent = (props: TextCodeBodyComponentProps): JSX.Element => {
+  return <TextCodeBody className={props.class} />;
 };

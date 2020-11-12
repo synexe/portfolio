@@ -1,8 +1,9 @@
 {
-  "name": "my-app",
+  "name": "portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@cloudflare/wrangler": "^1.12.2",
     "@fullpage/react-fullpage": "^0.1.18",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
@@ -21,7 +22,7 @@
   "scripts": {
     "start": "react-scripts start",
     "lint": "eslint '*/**/*.{js,ts,tsx}' --fix",
-    "build": "react-scripts build",
+    "build": "react-scripts build --quiet",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
