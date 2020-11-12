@@ -80,8 +80,6 @@ const ContentHeroSubtitle = styled.span`
 
 const ContentBackgroundMark = styled.div``;
 
-const ContentBackgroundMarkInner = styled.div``;
-
 const ContentMarkImage = styled.img`
   user-select: none;
   animation: ${FadeInAnimation} 0.6s ease-in-out;
