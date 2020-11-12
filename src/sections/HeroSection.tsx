@@ -1,7 +1,8 @@
 import React from 'react';
 import { ScrollIndicationComponent } from '../components/ScrollIndication/ScrollIndication';
-import { TextCodeComponent } from '../components/TextCode/TextCode';
+import { TextCodeBodyComponent } from '../components/TextCode/TextCodeBody';
 import styled from 'styled-components';
+import { ContentHeroComponent } from '../components/ContentHero/ContentHero';
 
 const Hero = styled.div`
   height: 100%;
@@ -12,9 +13,10 @@ export const HeroSection = (): JSX.Element => {
   return (
     <div className="section fp-auto-height-responsive">
       <Hero>
-        <TextCodeComponent class="code-body-start" />
-        <TextCodeComponent class="code-body-end" />
+        <TextCodeBodyComponent class="code-body-start" />
+        <TextCodeBodyComponent class="code-body-end" />
         <ScrollIndicationComponent />
+        <ContentHeroComponent />
       </Hero>
     </div>
   );
